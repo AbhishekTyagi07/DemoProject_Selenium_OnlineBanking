@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64377" started-at="2018-11-21T17:03:23Z" finished-at="2018-11-21T17:04:27Z">
+    <groups>
+    </groups>
+    <test name="Online Banking" duration-ms="64377" started-at="2018-11-21T17:03:23Z" finished-at="2018-11-21T17:04:27Z">
+      <class name="TestCases.TestCaseBankingHome">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:TestCases.TestCaseBankingHome@27efef64]" name="initializeDriver" is-config="true" duration-ms="6209" started-at="2018-11-21T17:03:55Z" finished-at="2018-11-21T17:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifyBankingDetails()[pri:4, instance:TestCases.TestCaseBankingHome@27efef64]" name="verifyBankingDetails" duration-ms="3058" started-at="2018-11-21T17:04:02Z" finished-at="2018-11-21T17:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBankingDetails -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.TestCaseBankingHome@27efef64]" name="quitDriver" is-config="true" duration-ms="717" started-at="2018-11-21T17:04:05Z" finished-at="2018-11-21T17:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCases.TestCaseBankingHome -->
+      <class name="TestCases.TestCaseAccountSummary">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:TestCases.TestCaseAccountSummary@47c62251]" name="initializeDriver" is-config="true" duration-ms="6887" started-at="2018-11-21T17:04:15Z" finished-at="2018-11-21T17:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifyAccountSummary()[pri:6, instance:TestCases.TestCaseAccountSummary@47c62251]" name="verifyAccountSummary" duration-ms="4897" started-at="2018-11-21T17:04:22Z" finished-at="2018-11-21T17:04:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountSummary -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.TestCaseAccountSummary@47c62251]" name="quitDriver" is-config="true" duration-ms="779" started-at="2018-11-21T17:04:26Z" finished-at="2018-11-21T17:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCases.TestCaseAccountSummary -->
+      <class name="TestCases.TestCaseLogin">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:TestCases.TestCaseLogin@59f99ea]" name="initializeDriver" is-config="true" duration-ms="7428" started-at="2018-11-21T17:03:23Z" finished-at="2018-11-21T17:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:TestCases.TestCaseLogin@59f99ea]" name="verifyLogo" duration-ms="105" started-at="2018-11-21T17:03:30Z" finished-at="2018-11-21T17:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.TestCaseLogin@59f99ea]" name="quitDriver" is-config="true" duration-ms="728" started-at="2018-11-21T17:03:30Z" finished-at="2018-11-21T17:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:TestCases.TestCaseLogin@59f99ea]" name="initializeDriver" is-config="true" duration-ms="5868" started-at="2018-11-21T17:03:31Z" finished-at="2018-11-21T17:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifyTabs()[pri:1, instance:TestCases.TestCaseLogin@59f99ea]" name="verifyTabs" duration-ms="148" started-at="2018-11-21T17:03:37Z" finished-at="2018-11-21T17:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTabs -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.TestCaseLogin@59f99ea]" name="quitDriver" is-config="true" duration-ms="739" started-at="2018-11-21T17:03:37Z" finished-at="2018-11-21T17:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:TestCases.TestCaseLogin@59f99ea]" name="initializeDriver" is-config="true" duration-ms="5852" started-at="2018-11-21T17:03:38Z" finished-at="2018-11-21T17:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="checkIncorrectLogin()[pri:2, instance:TestCases.TestCaseLogin@59f99ea]" name="checkIncorrectLogin" duration-ms="1604" started-at="2018-11-21T17:03:44Z" finished-at="2018-11-21T17:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIncorrectLogin -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.TestCaseLogin@59f99ea]" name="quitDriver" is-config="true" duration-ms="718" started-at="2018-11-21T17:03:45Z" finished-at="2018-11-21T17:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:TestCases.TestCaseLogin@59f99ea]" name="initializeDriver" is-config="true" duration-ms="6941" started-at="2018-11-21T17:03:46Z" finished-at="2018-11-21T17:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="checkCorrectLogin()[pri:3, instance:TestCases.TestCaseLogin@59f99ea]" name="checkCorrectLogin" duration-ms="1716" started-at="2018-11-21T17:03:53Z" finished-at="2018-11-21T17:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCorrectLogin -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.TestCaseLogin@59f99ea]" name="quitDriver" is-config="true" duration-ms="712" started-at="2018-11-21T17:03:55Z" finished-at="2018-11-21T17:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCases.TestCaseLogin -->
+      <class name="TestCases.TestCaseTransferFunds">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:TestCases.TestCaseTransferFunds@6f7fd0e6]" name="initializeDriver" is-config="true" duration-ms="5814" started-at="2018-11-21T17:04:05Z" finished-at="2018-11-21T17:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="FundsTransfer()[pri:5, instance:TestCases.TestCaseTransferFunds@6f7fd0e6]" name="FundsTransfer" duration-ms="2713" started-at="2018-11-21T17:04:11Z" finished-at="2018-11-21T17:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FundsTransfer -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.TestCaseTransferFunds@6f7fd0e6]" name="quitDriver" is-config="true" duration-ms="704" started-at="2018-11-21T17:04:14Z" finished-at="2018-11-21T17:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCases.TestCaseTransferFunds -->
+    </test> <!-- Online Banking -->
+  </suite> <!-- Suite -->
+</testng-results>
